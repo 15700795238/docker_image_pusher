@@ -1,7 +1,11 @@
---platform=linux/arm64 nginx:1.25.3 
-#支持私库
+#方式一：直接就是镜像名称：版本
+#nginx:1.25.3
+#方式二：指定了服务器架构+镜像：版本
+#--platform=linux/arm64 nginx:1.25.3 
+# 方式三：支持私库镜像拉取kube-state-metrics 镜像名称：v2.0.0版本
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#xhofe/alist:latest
+# 方式四：多架构，多个仓库时
+xhofe/alist:latest
 #支持指定架构
 #--platform=linux/amd64
-#--platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/arm64 xiaoyaliu/alist
