@@ -10,4 +10,4 @@ xhofe/alist:latest
 #--platform=linux/amd64
 #--platform=linux/arm64 xiaoyaliu/alist
 
---platform=linux/amd64 openjdk:8-jdk-alpine
+--platform=linux/amd64 nacos/nacos-server:1.4.1
