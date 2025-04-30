@@ -11,4 +11,4 @@ xhofe/alist:latest
 #--platform=linux/arm64 xiaoyaliu/alist
 #openjdk:8u102-jdk
 #--platform=linux/amd64 nacos/nacos-server:1.4.1
-docker.io/coredns/coredns:1.8.4
+openjdk:21
