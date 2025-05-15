@@ -11,4 +11,5 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #openjdk:8u102-jdk
 #--platform=linux/amd64 nacos/nacos-server:1.4.1
-apache/skywalking-ui:10.0.1
+apache/skywalking-oap-server:8.3.0-es7
+apache/skywalking-ui:8.3.0
