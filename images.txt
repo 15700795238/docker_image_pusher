@@ -11,4 +11,8 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #openjdk:8u102-jdk
 #--platform=linux/amd64 nacos/nacos-server:1.4.1
-nacos/nacos-server:v2.1.0
+elasticsearch:7.5.1
+logstash:7.5.1
+kibana:7.5.1
+kafkamanager/kafka-manager:2.0.0.2
+elastic/filebeat:7.5.1
