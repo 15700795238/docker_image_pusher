@@ -11,4 +11,4 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #openjdk:8u102-jdk
 #--platform=linux/amd64 nacos/nacos-server:1.4.1
-elasticsearch:8.11.3
+mysql:5.7.25
